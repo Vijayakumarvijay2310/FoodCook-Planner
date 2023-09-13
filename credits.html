@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        FoodCook Planner🍟
+        <a href="./index.html" style="padding: 2px 10px; font-size: 10px;">Back</a>
+    </header>
+<main>
+    <h4>Authors of FoodCook Planner</h4>
+    <style>
+        table {
+            margin: 20px auto;
+            border-spacing: 0;
+        }
+
+        tr:first-child {
+            background-color: #1b63ff;
+            color: #fff;
+        }
+
+        th,
+        td {
+            padding: 5px 15px;
+            font-size: 10px;
+            border: 0.5px solid black;
+        }
+
+        table a {
+            font-size: 10px;
+            color: darkblue;
+        }
+
+        tr.active {
+            background-color: lightskyblue;
+        }
+
+    </style>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Github</th>
+            <th>Contact details</th>
+        </tr>
+        <tr>
+            <td>Vijay</td>
+            <td>Github.com</td>
+            <td><a href="#">https://vijay</a></td>
+        </tr>
+        <tr>
+            <td>Trisha</td>
+            <td>Github.com</td>
+            <td><a href="#">https://trisha</a></td>
+        </tr>
+        <tr>
+            <td>lokesh</td>
+            <td>Github.com</td>
+            <td><a href="#">https://lokesh</a></td>
+        </tr>
+    </table>
+
+     <!-- Donate Page -->
+    <div>
+         <button style="font-size: 10px;padding: 5px 10px;" data-toggle="toggleHideAndShow" >Support Authors</button>
+         <form style="margin-top: 10px;" id="toggleHideAndShow" hidden>
+                 <span style="font-family:arial;">₹</span>
+                 <input type="number" placeholder="20" style="padding: 2px 10px;" min="1">
+                 <button style="font-size: 10px;">Donate</button>
+             </form>   
+         </div>
+         <!-- End Donate page -->
+    </main>
+
+    <script src="./assets/js/learning.js"></script>
+</body>
+
+</html>
